@@ -1,4 +1,4 @@
-<h1>💻 Proyecto PowerShell  |   En Progreso 🛠  </h1>
+<h1>💻 Proyecto Python  |   En Progreso 🛠  </h1>
 
 <h2>⌨ Este proyecto contiene codigo:</h2>
 <ul>
