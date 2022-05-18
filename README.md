@@ -10,20 +10,25 @@ Contiene un menu con las siguientes opciones:
 Debemos tener una base de datos con el nombre que queremos: basepython
 <br>
 <br>
-<ul>
-  <li>1. Hacer Examen </li>
-  <li>2. Nuevo test</li>
-  <li>Listar contenidos de la tabla hash</li>
-  <li>Consultar:</li>
-  <ul>
-  		<li>Buscar informacion de un elemento</li>
-      <li>Buscar por rangos</li>
-  		  <ul>
-        <li>Consultar por pais</li>
-        <li>Consultar por precio</li>
-        <li>Consultar por traccion</li>
-        </ul>
-  </ul>
-   <li>Modificar elemento</li>
-    <li>Salir y Guardar</li>
-  </ul>
+<ol>
+  <li>Hacer Examen </li>
+  <li>Nuevo test</li>
+ </ol>
+ <p>Con la opcion 'Hacer Examen', se mostrará otro menú con los temas sobre los que podemos hacer el test (4 temas)</p>
+ 
+ <ol>
+  <li>Tema1</li>
+  <li>Tema2</li>
+  <li>Tema3</li>
+  <li>Tema4</li>
+ </ol>
+ <p>En cada test se mostrarán 10 preguntas aleatorias, cada una de las cuales tendrá 4 respuestas posibles. Las respuestas se mostrarán también de forma aleatoria (es decir, no aparecerán siempre en el mismo orden)</p>
+  
+ <p>Al final del test se mostrará la nota obtenida</p>
+ 
+ Con la opción 2, se permitirá:
+ 
+ <ul>
+  <li>Crear un nuevo tema</li>
+  <li>Añadir preguntas y respuestas a un tema ya existente</li>
+ </ul>
